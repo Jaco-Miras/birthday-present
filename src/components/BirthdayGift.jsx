@@ -228,11 +228,20 @@ export default function BirthdayGift() {
           transition={{ type: "spring", stiffness: 100 }}
           className="relative p-7 bg-white shadow-xl rounded-2xl text-center max-w-2xl z-10 "
         >
+          <img
+            src="/images/kiss.png" // Replace with your image URL
+            alt="Centered Image"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 h-1/2 opacity-25"
+          />
           <h1 className="font-monkey text-2xl mb-2">My Love, Aloha Amor 💖</h1>
           <div className="font-dancing text-2xl text-justify m-1">
-            <p className="">{birthdaMessage}</p>
-            <h1 className=" mt-2 text-left">With all love,</h1>
-            <h1 className=" mt-2 text-left">Forever your bebeboy!!!</h1>
+            <p className="font-semibold">{birthdaMessage}</p>
+            <h1 className="mt-4 text-left text-4xl font-bold">
+              With all love,
+            </h1>
+            <h1 className="mt-2 text-left text-3xl font-bold">
+              Forever your bebeboy!!!
+            </h1>
           </div>
         </motion.div>
       )}
