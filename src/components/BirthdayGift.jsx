@@ -92,7 +92,7 @@ export default function BirthdayGift() {
                 className="relative p-6 bg-white shadow-xl rounded-2xl text-center max-w-sm z-10"
               >
                 <h1 className="text-lg font-bold text-pink-600">
-                  🎉 Happy Birthday 24th My Love! 💖
+                  🎉 Happy 24th Birthday My Love! 💖
                 </h1>
                 <p className="mt-4 text-gray-700">
                   You are the most amazing person in my life. Wishing you love,
