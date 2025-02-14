@@ -213,7 +213,7 @@ export default function BirthdayGift() {
           <video
             controls
             autoPlay={true}
-            className="w-1/2 h-1/2 object-cover"
+            className="w-1/2 h-1/2"
             onEnded={handleVideoEnd}
           >
             <source src="/video/video.mp4" type="video/mp4" />
